@@ -1,9 +1,8 @@
 const mongoose = require("mongoose");
-const CreateAsyncError = require("../CreateAsyncError");
 
 
 const ConnectDB = async () => {
- const MONGO_URL = 'mongodb+srv://recorder:vJQ1D6Kmmrpsxbj7@cluster0.oiu5xv8.mongodb.net/?retryWrites=true&w=majority';
+ const MONGO_URL = process.env.MONGO_URL;
   try {
     await mongoose.connect(MONGO_URL, {
       useNewUrlParser: true,
