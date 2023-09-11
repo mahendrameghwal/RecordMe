@@ -13,10 +13,8 @@ RecordMe is your comprehensive multimedia recording solution, designed to make c
 
 ## Video Demo
 
-<video width="640" height="360" controls>
-  <source src="https://res.cloudinary.com/dw1tzqyxw/video/upload/v1694430886/video/hjhiz53coq2smpqbyiea.mkv" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![App demo](https://res.cloudinary.com/dw1tzqyxw/video/upload/v1694430886/video/hjhiz53coq2smpqbyiea.mkv)
+
 
 ## Getting Started
 
